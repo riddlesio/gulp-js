@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      "@riddles/gulp-js@1.1.2",
+      "/Users/jimvaneeden/development/aion-matchviewer"
+    ]
+  ],
+  "_development": true,
+  "_from": "@riddles/gulp-js@1.1.2",
+  "_id": "@riddles/gulp-js@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha1-gYyzx1IGfndg1zi1HjtKwJGQtsw=",
+  "_location": "/@riddles/gulp-js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@riddles/gulp-js@1.1.2",
+    "name": "@riddles/gulp-js",
+    "escapedName": "@riddles%2fgulp-js",
+    "scope": "@riddles",
+    "rawSpec": "1.1.2",
+    "saveSpec": null,
+    "fetchSpec": "1.1.2"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@riddles/gulp-js/-/gulp-js-1.1.2.tgz",
+  "_spec": "1.1.2",
+  "_where": "/Users/jimvaneeden/development/aion-matchviewer",
+  "author": {
+    "name": "Niko van Meurs",
+    "email": "niko@riddles.io"
+  },
+  "bugs": {
+    "url": "https://github.com/riddlesio/gulp-js/issues"
+  },
+  "dependencies": {
+    "gulp-rename": "^1.2.2",
+    "webpack-stream": "^3.2.0"
+  },
+  "description": "Gulp task for bundling JavaScript files",
+  "devDependencies": {
+    "@riddles/npm-discord-notifier": "^1.0.6"
+  },
+  "homepage": "https://github.com/riddlesio/gulp-js",
+  "keywords": [
+    "Gulp",
+    "js"
+  ],
+  "license": "LicenceRef-LICENSE",
+  "main": "index.js",
+  "name": "@riddles/gulp-js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/riddlesio/gulp-js.git"
+  },
+  "scripts": {
+    "postpublish": "notify-discord -c \"155423979354456064\" -t \"MTU0NDg5NTMyNTI2MzYyNjI0.CbuABw.yKQdIkpHxxU7ykeCSx9HIEMtkqA\""
+  },
+  "version": "1.1.2"
+}
